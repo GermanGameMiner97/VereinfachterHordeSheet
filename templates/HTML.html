@@ -1,0 +1,69 @@
+<div class="character-image">
+  <label for="image-upload">Bild des Charakters hochladen:</label>
+  <input type="file" id="image-upload" accept="image/*">
+  <img id="character-image-display" src="path/to/placeholder-image.png" alt="Character Image" width="150" height="150">
+</div>
+<div class="character-sheet">
+  <h2>Vereinfachter Charakterbogen P&P Horde Edition</h2>
+  
+
+<div class="character-info">
+  <label>Name: <input type="text" id="character-name"></label>
+  <label>Volk: <input type="text" id="character-race"></label>
+  <label>Lebenspunkte: <input type="number" id="hp"></label>
+</div>
+
+  <div class="class-info">
+    <label>Klasse: <input type="text" id="character-class"></label>
+  </div>
+
+  <table class="attributes">
+    <thead>
+      <tr>
+        <th>Attribute</th>
+        <th>Basis</th>
+        <th>Bonus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Intelligenz</td><td><input type="number" id="int-base"></td><td><input type="number" id="int-bonus"></td></tr>
+      <tr><td>Mut</td><td><input type="number" id="courage-base"></td><td><input type="number" id="courage-bonus"></td></tr>
+      <tr><td>Körperkraft</td><td><input type="number" id="strength-base"></td><td><input type="number" id="strength-bonus"></td></tr>
+      <tr><td>Geschick</td><td><input type="number" id="dex-base"></td><td><input type="number" id="dex-bonus"></td></tr>
+      <tr><td>Charisma</td><td><input type="number" id="char-base"></td><td><input type="number" id="char-bonus"></td></tr>
+    </tbody>
+  </table>
+
+  <div class="traits">
+    <div class="strengths">
+      <h4>Stärken</h4>
+      <ul>
+        <li><input type="text" placeholder="Stärke 1"></li>
+        <li><input type="text" placeholder="Stärke 2"></li>
+      </ul>
+    </div>
+    <div class="weaknesses">
+      <h4>Schwächen</h4>
+      <ul>
+        <li><input type="text" placeholder="Schwäche 1"></li>
+        <li><input type="text" placeholder="Schwäche 2"></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="notes">
+    <h4>Notizen & Zusätze</h4>
+    <textarea id="notes" rows="4" cols="50"></textarea>
+  </div>
+
+  <div class="equipment">
+    <h4>Ausrüstung</h4>
+    <label>Li. Hand: <input type="text" id="left-hand"></label>
+    <label>Re. Hand: <input type="text" id="right-hand"></label>
+    <label>Finger 1: <input type="text" id="finger1"></label>
+    <label>Finger 2: <input type="text" id="finger2"></label>
+    <label>Rücken: <input type="text" id="back"></label>
+    <label>Rüstung/Kleidung: <input type="text" id="armor"></label>
+    <label>Tasche/Rucksack: <input type="text" id="bag"></label>
+  </div>
+</div>
