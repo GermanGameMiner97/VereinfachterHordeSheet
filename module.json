@@ -1,0 +1,29 @@
+{
+  "name": "C",
+  "title": "Custom Character Sheet",
+  "description": "Ein eigener Charakterbogen für P&P Horde Edition.",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "Florian"
+    }
+  ],
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "10",
+  "system": "dnd5e",
+  "scripts": [
+    "scripts/script.js"
+  ],
+  "styles": [
+    "styles/style.css"
+  ],
+  "esmodules": [],
+  "languages": [],
+  "packs": [],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "template": [
+    "templates/html.html"
+  ]
+}
