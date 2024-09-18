@@ -1,25 +1,47 @@
 {
-  "name": "C",
-  "title": "Custom Character Sheet",
-  "description": "Ein eigener Charakterbogen für P&P Horde Edition.",
-  "version": "1.0",
-  "authors": "Florian",
-  "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "10",
-  "system": "dnd5e",
-  "scripts": [
+  "id": "EasySheet",
+  "description": "Easy GronkhHordeSheet",
+  "title": "EasySheet",
+  "version": "#{VERSION}#",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.1.0",
+          "verified": "3.3.1"
+        }
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "FlorianL",
+      "discord": "",
+      "flags": {
+        "github": ""
+      }
+    }
+  ],
+  "esmodules": [
     "scripts/script.js"
   ],
   "styles": [
     "styles/style.css"
   ],
-  "esmodules": [],
-  "languages": [],
-  "packs": [],
-  "url": "",
-  "manifest": "",
-  "download": "",
-  "template": [
-    "templates/html.html"
-  ]
+    ],
+    "esmodules": [],
+    "languages": [],
+    "packs": [],
+    "url": "",
+    "manifest": "",
+    "download": "",
+    "template": [
+        "templates/html.html"
+    ]
 }
