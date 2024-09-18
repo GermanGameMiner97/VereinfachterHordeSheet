@@ -3,7 +3,7 @@
   "description": "Easy GronkhHordeSheet",
   "title": "EasySheet",
   "version": "#{VERSION}#",
-  "relationships": {
+  "relationships":
     "systems": [
       {
         "id": "dnd5e",
