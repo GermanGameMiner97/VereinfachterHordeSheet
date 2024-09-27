@@ -2,8 +2,8 @@
   "id": "EasySheet",
   "description": "Easy GronkhHordeSheet",
   "title": "EasySheet",
-  "version": "#{VERSION}#",
-  "relationships":
+  "version": "1.0.0",
+  "relationships": {
     "systems": [
       {
         "id": "dnd5e",
@@ -30,14 +30,12 @@
   "styles": [
     "styles/style.css"
   ],
-    ],
-    "esmodules": [],
-    "languages": [],
-    "packs": [],
-    "url": "",
-    "manifest": "",
-    "download": "",
-    "template": [
-        "templates/html.html"
-    ]
+  "languages": [],
+  "packs": [],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "template": [
+    "templates/html.html"
+  ]
 }
