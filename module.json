@@ -1,8 +1,20 @@
 {
   "id": "EasySheet",
-  "description": "Easy GronkhHordeSheet",
+  "name": "easysheet",
   "title": "EasySheet",
-  "version": "1.0.0",
+  "description": "Easy GronkhHordeSheet",
+  "authors": [
+    {
+      "name": "FlorianL",
+    }
+  ],
+  "version": "2",
+  "minimumCoreVersion": "11",
+  "compatibleCoreVersion": "11",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.302"
+  }
   "relationships": {
     "systems": [
       {
@@ -15,15 +27,6 @@
       }
     ]
   },
-  "authors": [
-    {
-      "name": "FlorianL",
-      "discord": "",
-      "flags": {
-        "github": ""
-      }
-    }
-  ],
   "esmodules": [
     "scripts/script.js"
   ],
